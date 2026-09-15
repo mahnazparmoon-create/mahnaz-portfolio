@@ -225,3 +225,36 @@ nav ul li a {
   font-weight: 600;
   text-decoration: none;
 }
+
+/* Contact */
+
+.contact {
+  padding: 100px 6%;
+  background-color: #f5f0ea;
+}
+
+.contact-content {
+  max-width: 800px;
+}
+
+.contact h2 {
+  font-size: 48px;
+  line-height: 1.2;
+  margin-bottom: 25px;
+}
+
+.contact-content > p:not(.section-label) {
+  font-size: 18px;
+  line-height: 1.8;
+  max-width: 650px;
+  margin-bottom: 35px;
+}
+
+.contact-btn {
+  display: inline-block;
+  padding: 15px 30px;
+  background-color: #111;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 15px;
+}
