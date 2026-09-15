@@ -3,40 +3,154 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <title>Mahnaz Portfolio</title>
+
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
+    
   </head>
 
   <body>
+
+    <!-- Header -->
     <header>
       <nav>
         <a href="#" class="logo">mahnaz</a>
+
         <ul>
           <li><a href="#">home</a></li>
-          <li><a href="#">about</a></li>
-          <li><a href="#">projects</a></li>
-          <li><a href="#">contact</a></li>
+          <li><a href="#about">about</a></li>
+          <li><a href="#projects">projects</a></li>
+          <li><a href="#contact">contact</a></li>
         </ul>
       </nav>
     </header>
 
+
+    <!-- Hero -->
     <section class="hero">
-      <div class="hero-content"></div>
+      <div class="hero-content">
+
+        <p class="subtitle">WEB DESIGN & DEVELOPMENT</p>
+
+        <h1>Hi, I'm Mahnaz</h1>
+
+        <p>
+          I create clean and responsive websites using modern web technologies.
+        </p>
+
+        <a href="#projects" class="btn">View My Work</a>
+
+      </div>
+
       <div class="hero-image">
-        <img src="images/mahnaz.jpg" alt="Mahnaz" />
+        <img src="images/mahnaz.jpg.jpg" alt="Mahnaz" />
       </div>
     </section>
 
-    <div class="hero-content">
-      <p class="subtitle">WEB DESIGN & DEVELOPMENT</p>
 
-      <h1>Hi, I'm Mahnaz</h1>
+    <!-- About -->
+    <section class="about" id="about">
+      <div class="about-content">
 
-      <p>
-        I create clean and responsive website using modern web technologies.
-      </p>
+        <p class="section-label">ABOUT ME</p>
 
-      <a href="#" class="btn"> View My Work</a>
-    </div>
+        <h2>Hi, I'm Mahnaz</h2>
+
+        <p>
+          I'm a beginner web designer and developer passionate about creating
+          clean, simple, and user-friendly websites.
+        </p>
+
+        <p>
+          I work with HTML and CSS, and I'm currently learning JavaScript to
+          build more interactive and professional websites.
+        </p>
+
+      </div>
+    </section>
+
+
+    <!-- Skills -->
+    <section class="skills" id="skills">
+      <div class="skills-content">
+
+        <p class="section-label">MY SKILLS</p>
+
+        <h2>What I Can Do</h2>
+
+        <div class="skills-grid">
+
+          <div class="skill-card">
+            <h3>HTML</h3>
+            <p>
+              Building clean and semantic website structures.
+            </p>
+          </div>
+
+          <div class="skill-card">
+            <h3>CSS</h3>
+            <p>
+              Creating responsive and modern website layouts.
+            </p>
+          </div>
+
+          <div class="skill-card">
+            <h3>JavaScript</h3>
+            <p>
+              Currently learning JavaScript for interactive websites.
+            </p>
+          </div>
+
+          <div class="skill-card">
+            <h3>WordPress</h3>
+            <p>
+              Learning WordPress website design and customization.
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Projects -->
+    <section class="projects" id="projects">
+      <div class="projects-content">
+
+        <p class="section-label">MY PROJECTS</p>
+
+        <h2>Selected Work</h2>
+
+        <div class="project-card">
+
+          <div class="project-info">
+
+            <p class="project-number">01</p>
+
+            <h3>Hosseini Grocery Store</h3>
+
+            <p>
+              A clean and responsive website designed for a grocery store,
+              focusing on simple navigation, clear information, and a modern
+              user-friendly experience.
+            </p>
+
+            <div class="project-tags">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>Responsive Design</span>
+            </div>
+
+            <a href="#" class="project-link">View Project →</a>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
   </body>
 </html>
